@@ -1,0 +1,10 @@
+{% extended 'body.html' %}
+
+{% block content %}
+{{ super() }}
+<form action="/" method="post" class="form-contact">
+    <p><label>Link:</label>
+    <p><textarea name="link" rows=10 cols=40></textarea>
+    <p><input class="button" type="submit" value="Detect" />
+</form>
+{% endblock %}
