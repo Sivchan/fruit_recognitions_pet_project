@@ -7,6 +7,9 @@ import urllib.request
 if not os.path.exists('static/Results'):
     os.mkdir('static/Results')
 
+if not os.path.exists('static/Others'):
+    os.mkdir('static/Others')
+
 if not os.path.exists('static/Others/pretrained_weights.pth'):
     destination = 'static/Others/pretrained_weights.pth'
     url = 'https://drive.google.com/u/2/uc?id=1RY2Hv2juE3LptIU7sxpjWjXt23KseW2l&export=download&confirm=t&uuid=85cb0d70-25a8-4610-b13c-0feb3c55b141&at=AHV7M3eOFWFJubKsKwf8W-sExiK2:1669572420250'
