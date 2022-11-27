@@ -13,10 +13,10 @@ The training results are shown in the pictures from the dataset used for the mod
 ![](Examples/1.png)
 ![](Examples/2.png)
 ![](Examples/3.png)
+![](Examples/6.png)
 
 The results of the training on the photos of the author of the work and the picture from the Internet:
-![](Examples/4.jpg)
-![](Examples/5.jpg)
+![](Examples/4.jpg)![](Examples/5.jpg)
 
 To test the model on your photos and pictures, you need to clone this repository using:
 `git clone <HTTPS repository link>`
